@@ -1,5 +1,7 @@
 package testsample;
 
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
 import org.openqa.selenium.By;		
 import org.openqa.selenium.WebDriver;		
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -16,7 +18,7 @@ public class TestMavenWebDriver1 {
 		
 		driver.get("http://demo.guru99.com/test/guru99home/");  
 		String title = driver.getTitle();				 
-		Assert.assertTrue(title.contains("Demo Guru99 Page")); 	
+		AssertJUnit.assertTrue(title.contains("Demo Guru99 Page")); 	
 		System.out.println("Test Passes, Voola");
 	}	
 	@BeforeTest
