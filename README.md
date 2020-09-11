@@ -1,2 +1,1 @@
-# figuring-out-jenkins-maven
-Practice match
+part of jenkins-maven-git project
